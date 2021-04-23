@@ -1,0 +1,218 @@
+@font-face {
+  font-family:Code-Pro;
+  src:url('../fonts/code-pro/Code Pro Black.otf');
+  src:url('../fonts/code-pro/Code Pro Black LC.otf');
+  font-weight:900;
+}
+
+@font-face {
+  font-family:Code-Pro;
+  src:url('../fonts/code-pro/Code Pro Bold.otf');
+  src:url('../fonts/code-pro/Code Pro Bold LC.otf');
+  font-weight:800;
+}
+
+@font-face {
+  font-family:Code-Pro;
+  src:url('../fonts/code-pro/Code Pro.otf');
+  src:url('../fonts/code-pro/Code Pro LC.otf');
+  font-weight:600;
+}
+
+@font-face {
+  font-family:Code-Pro;
+  src:url('../fonts/code-pro/Code Pro Light.otf');
+  src:url('../fonts/code-pro/Code Pro Light LC.otf.otf');
+  font-weight:500;
+}
+
+@font-face {
+  font-family:League-Spartan;
+  src:url('../fonts/league-spartan/league-spartan.bold.ttf');
+}
+
+@font-face {
+  font-family:Spartan-MB;
+  src:url('../fonts/spartan-mb/SpartanMB-Black.otf');
+  font-weight: 1000;
+}
+
+@font-face {
+  font-family:Spartan-MB;
+  src:url('../fonts/spartan-mb/SpartanMB-Extra-Bold.otf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family:Spartan-MB;
+  src:url('../fonts/spartan-mb/SpartanMB-Bold.otf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family:Spartan-MB;
+  src:url('../fonts/spartan-mb/SpartanMB-SemiBold.otf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family:Spartan-MB;
+  src:url('../fonts/spartan-mb/SpartanMB-Regular.otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family:Hanson-Bold;
+  src:url('../fonts/hanson-bold/Hanson-Bold.ttf');
+  font-weight:900;
+}
+
+@font-face {
+  font-family:Eastman;
+  src:url('../fonts/eastman/eastman-trial.extrabold.otf');
+  font-weight:800;
+}
+
+@font-face {
+  font-family:NeueHaas;
+  src:url('../fonts/neue-haas/NeueHaasDisplayBlack.ttf');
+  font-weight:900;
+}
+
+@font-face {
+  font-family:NeueHaas;
+  src:url('../fonts/neue-haas/NeueHaasDisplayBold.ttf');
+  font-weight:800;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height:250px;
+  width:device-width;
+  background-image:linear-gradient(#dcdedd,#dcdedd);
+  color:white;
+  margin:0;
+}
+
+section{
+  height:auto;
+  width:device-width;
+  /* background-color: #d5e0e0; */
+  background-image:linear-gradient(#0370a6,#c8ed79);
+  color:white;
+  margin:0;
+}
+
+.card_stack{
+  overflow:scroll;
+  direction:ltr;
+  margin:auto;
+  white-space:nowrap;
+}
+
+.small_card_stack{
+  overflow:scroll;
+}
+
+footer{
+  height:50px;
+  width:device-width;
+  background-color:black;
+  margin:0;
+  color:white;
+}
+
+.card{
+  height:450px;
+  width:300px;
+  background-image:linear-gradient(#cfcfcf,#ededed);
+  display:inline-block;
+  margin-left:10px;
+  margin-right:10px;
+  align:center;
+  justify-content: center;
+  margin-bottom:20px;
+  transition: 250ms linear;
+}
+
+.card:hover{
+  transform: translateY(-5%);
+}
+
+.small_card{
+  height:auto;
+  width:500px;
+  background-image:linear-gradient(#cfcfcf,#ededed);
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right:10px;
+  align-content:  center;
+  justify-content: center;
+  /* transitio  n: 250ms linear; */
+}
+
+/* .small_card:hover{
+  transform: translateX(5%);
+} */
+
+.logo_img{
+  margin-top:5px;
+  width:100px;
+  height:100px;
+}
+
+.tech_img{
+  width:100%;
+  height:411px;
+  object-fit:cover;
+}
+
+.project_img{
+  width:100%;
+  height:300px;
+  object-fit:cover;
+}
+
+.company_img{
+  height:90px;
+  width:90px;
+  object-fit:cover;
+}
+
+h1{
+  font-family: 'Eastman', sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  margin-left: 10px;
+  letter-spacing:-1px;
+}
+
+h2{
+  font-family: 'Code-Pro', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-left: 10px;
+  letter-spacing:-1px;
+}
+
+h3{
+  font-family: 'Code-Pro', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 10px;
+  letter-spacing:-1px;
+}
+
+p{
+  font-family: 'Spartan-MB',sans-serif;
+  font-weight: 700;
+  letter-spacing:-1px;
+  font-size:22px;
+  color:black;
+  margin-top:-10px;
+}
