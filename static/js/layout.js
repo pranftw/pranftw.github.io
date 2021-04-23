@@ -136,12 +136,10 @@ education_stack_json_string = `
       "name":"BMS College Of Engineering",
       "image":"static/education_stack/bmsce.png",
       "description":[
-        "B.E Computer Science",
-        "M.S Computer Science"
+        "B.E Computer Science"
       ],
       "year":[
-        "2019-2023",
-        "2023-2025"
+        "2019-2023"
       ]
     }
   ]
