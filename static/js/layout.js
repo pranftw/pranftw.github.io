@@ -248,7 +248,7 @@ function update_project_stack(){
     outer_div.style.cssText = "height:151px;width:100%;background-image:linear-gradient(#e08907,#e6c657);margin-top:-5px;text-align:left;";
     var div_element = document.createElement('div');
     var desc_div = document.createElement('div');
-    desc_div.style.cssText = "height:110px;max-width:100%;white-space:normal;overflow-wrap:break-word;overflow:scroll;margin-top:-20px;background-color:black;";
+    desc_div.style.cssText = "height:110px;max-width:100%;white-space:normal;overflow-wrap:break-word;overflow:scroll;margin-top:-20px;";
     var title_div = document.createElement('div');
     // title_div.style.cssText = "height:40px;width:100%;background-color:#cee823;margin-top:-5px;";
     var height_div = document.createElement('div');
