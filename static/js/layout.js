@@ -15,7 +15,7 @@ function add_card_stack(card_stack,num_cards){
       card.id = "contact_stack_" + i_str;
     }
     else if(card_stack==project_stack){
-      card.style.cssText = "width:250px;";
+      // card.style.cssText = "width:250px;";
       card.id = "project_stack_" + i_str;
     }
     else if(card_stack==tech_stack){
