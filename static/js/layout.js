@@ -103,42 +103,6 @@ project_stack_json_string = `
       "image":"static/project_stack/prog_bar.png",
       "description":"Quick and efficient colored progress bars",
       "url_name":"https://github.com/pranavsastry/progress-bar"
-    },
-    {
-      "name":"ProgBar",
-      "image":"static/project_stack/prog_bar.png",
-      "description":"Quick and efficient colored progress bars",
-      "url_name":"https://github.com/pranavsastry/progress-bar"
-    },
-    {
-      "name":"ProgBar",
-      "image":"static/project_stack/prog_bar.png",
-      "description":"Quick and efficient colored progress bars",
-      "url_name":"https://github.com/pranavsastry/progress-bar"
-    },
-    {
-      "name":"ProgBar",
-      "image":"static/project_stack/prog_bar.png",
-      "description":"Quick and efficient colored progress bars",
-      "url_name":"https://github.com/pranavsastry/progress-bar"
-    },
-    {
-      "name":"ProgBar",
-      "image":"static/project_stack/prog_bar.png",
-      "description":"Quick and efficient colored progress bars",
-      "url_name":"https://github.com/pranavsastry/progress-bar"
-    },
-    {
-      "name":"ProgBar",
-      "image":"static/project_stack/prog_bar.png",
-      "description":"Quick and efficient colored progress bars",
-      "url_name":"https://github.com/pranavsastry/progress-bar"
-    },
-    {
-      "name":"ProgBar",
-      "image":"static/project_stack/prog_bar.png",
-      "description":"Quick and efficient colored progress bars",
-      "url_name":"https://github.com/pranavsastry/progress-bar"
     }
   ]
 }
