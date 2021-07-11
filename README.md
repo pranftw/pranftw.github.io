@@ -1,2 +1,2 @@
-# pranavsastry.github.io
+# pranftw.github.io
 Personal Website
