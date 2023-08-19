@@ -98,7 +98,7 @@ body{
 header{
   height:250px;
   width:device-width;
-  background-image:linear-gradient(#dcdedd,#dcdedd);
+  /* background-image:linear-gradient(#dcdedd,#dcdedd); */
   color:white;
   margin:0;
 }
@@ -126,9 +126,9 @@ section{
 footer{
   height:50px;
   width:device-width;
-  background-color:black;
+  /* background-color:black; */
   margin:0;
-  color:white;
+  /* color:white; */
 }
 
 .card{
@@ -151,7 +151,6 @@ footer{
 .small_card{
   height:auto;
   width:500px;
-  background-image:linear-gradient(#cfcfcf,#ededed);
   margin-top:10px;
   margin-bottom:10px;
   margin-left:10px;
