@@ -134,7 +134,7 @@ footer{
 .card{
   height:450px;
   width:300px;
-  background-image:linear-gradient(#cfcfcf,#ededed);
+  /* background-image:linear-gradient(#cfcfcf,#ededed); */
   display:inline-block;
   margin-left:10px;
   margin-right:10px;
